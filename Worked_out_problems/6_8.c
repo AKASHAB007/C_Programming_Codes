@@ -1,7 +1,6 @@
 //// CODE: P:159 > 6.8 - To determine the Greatest Common Divisor (GCD) of two numbers:
 
 #include <stdio.h>
-#include <conio.h>
 #include <math.h>
 
 int GCD(int m, int n);
@@ -13,7 +12,7 @@ int main()
     scanf("%d%d",&num1, &num2);
     
     printf("\nGCD of %d and %d is %d\n",num1, num2, GCD(num1,num2));
-    getchar();
+    return 0;
 }
 
 int GCD(int a,int b)
