@@ -1,6 +1,7 @@
 //// CODE: P:167 > 6.3 - To find the values of x1 and x2 of the given expressions:
 // *                      ax1 + bx2 = m 
 // *                      cx1 + dx2 = n
+
 //. NOTE: provided (ad-cb != 0) .
 
 #include <stdio.h>

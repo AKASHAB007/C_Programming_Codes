@@ -13,5 +13,6 @@ int main()
       putchar(toupper(alphabet));
     else
      putchar(tolower(alphabet));
+
     return 0;
 }

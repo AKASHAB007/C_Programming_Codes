@@ -1,6 +1,9 @@
 //// CODE: P:169 > 6.14 - To read a positive integer number and decide whether the number is prime number and display the output accordingly.
-//   Also modify the program to count all the prime numbers that lie between 100 and 200.
+
+//   Also modify the program to count all the prime numbers that lie between 100 and 200. (we can also find between any two ranges)
+
 //.  NOTE: A prime number is a positive integer that is divisible by 1 or by itself.
+
 
 #include <stdio.h>
 

@@ -1,4 +1,5 @@
 //// CODE: P:169 > 6.13 - Program to Compute and display the sum of all integers that are divisible by 6 but not divisible by 4.
+
 ////                      and lie between 0 to 100. This program should also count and display the number of such values. 
 
 #include <stdio.h>

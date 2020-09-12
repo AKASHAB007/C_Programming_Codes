@@ -9,22 +9,22 @@
 
 int main()
 {
-    char name1[30], name2[30], name3[30];
+    char first[30], middle[30], last[30];
 
     printf("Enter the first name: ");
-    scanf("%s",&name1);
+    scanf("%s",&first);
 
     printf("Enter the middle name: ");
-    scanf("%s",&name2);
+    scanf("%s",&middle);
 
     printf("Enter the last name: ");
-    scanf("%s",&name3);
+    scanf("%s",&last);
 
-    printf("(a) %s %c. %s\n",name1, name2[0], name3);
+    printf("(a) %s %c. %s\n",first, middle[0], last);
 
-    printf("(b) %c.%c %s\n",name1[0], name2[0], name3);
+    printf("(b) %c.%c %s\n",first[0], middle[0], last);
 
-    printf("(a) %s %c.%c\n",name3, name1[0], name2[0]);
+    printf("(a) %s %c.%c\n",last, first[0], middle[0]);
 
     return 0;
     

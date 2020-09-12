@@ -1,5 +1,7 @@
+//// CODE: P:170 > 6.20 - To input a string and to Count the No.of Upper, lower and also special characters in that string.
+
 #include <stdio.h>
-/*
+ 
 int main()
 {
     char str[100];
@@ -11,7 +13,7 @@ int main()
  
     printf("Enter a string: ");
     scanf("%[^\n]",&str);
- *
+ 
     for(counter = 0;str[counter]!=NULL;counter++)
     {
         if(str[counter]>='A' && str[counter]<='Z')
@@ -28,22 +30,13 @@ int main()
     printf("\nTotal Upper case characters: %d\nLower Case characters: %d\nSpecial Characters: %d\n",countU,countL,countS);
  
     return 0;
-}*/
-
-//// In this below program if break is used output is 20. If instead of break if continue is used then just blank output screen.
-
-int main()
-{
-    int m=0;
-    do
-    {
-        if(m > 10)
-            break;
-    
-     m=m+10;
-    } while (m < 50);
-
-    printf("%d\n",m);
-
-    return 0;
 }
+
+/* Output:
+Enter a string: C Programming is not so Tough if you Understand the Basics Clearly ...,,,,!!!!!
+
+Total Upper case characters: 6
+Lower Case characters: 49
+Special Characters: 12
+
+*/

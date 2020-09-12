@@ -10,12 +10,12 @@
 
 #include <stdio.h>
 
-int main()                       //// DOUBT |||||\\\\\\\\\\\\\\\\
+int main()                     
 {
     int m,p,c,sum,sum1,i;
     char SN[50];
 
-    //* Here i am Inputing the Name and Marks of the subjects of Three students. 
+    //* Here i am Inputing the Name and Marks of the subjects of Three students(You can enter many other students also). So My for loop runs 3 times.
 
     for(i=1;i<=3;i++)
     {
@@ -51,6 +51,8 @@ int main()                       //// DOUBT |||||\\\\\\\\\\\\\\\\
         }
         printf("\n");
     }
+
+    //// DOUBT |||||\\\\\\\\\\\\\\\\
 
    /* printf("Here's the List of eligible candidates:\n");
     
